@@ -1,1 +1,32 @@
+# Incident Response Guide
+
+This guide outlines best practices for establishing a robust Incident Response (IR) plan to effectively detect, respond, and recover from cybersecurity incidents. It is designed to minimize downtime, protect sensitive information, and ensure business continuity.
+
+## Phases of Incident Response:
+1. **Preparation**:
+    - Develop and maintain an IR policy and communication plan.
+    - Train employees on incident response roles and responsibilities.
+    - Implement monitoring tools (e.g., SIEM) to detect potential threats.
+    
+2. **Identification**:
+    - Use automated tools (e.g., Splunk, IBM QRadar) to detect anomalies.
+    - Analyze logs and threat intelligence to confirm the incident.
+    
+3. **Containment**:
+    - Isolate the affected systems to prevent the spread of the attack.
+    - For cloud environments, leverage segmentation and virtual firewalls.
+    
+4. **Eradication**:
+    - Remove malicious files and patch vulnerabilities.
+    - Collaborate with legal and compliance teams to ensure regulatory requirements are met.
+    
+5. **Recovery**:
+    - Restore systems from clean backups.
+    - Monitor for signs of reinfection or persistence.
+    
+6. **Lessons Learned**:
+    - Conduct a post-incident analysis to identify gaps and improvements.
+    - Update IR policies and conduct a new risk assessment.
+
+**Tools Recommended**: Splunk, QRadar, AWS CloudTrail, Microsoft Sentinel.
 
